@@ -1,0 +1,31 @@
+{
+  "name": "github-mirror",
+  "version": "1.0.0",
+  "description": "GitHub 镜像加速下载工具",
+  "keywords": ["github", "mirror", "加速", "proxy", "下载"],
+  "triggers": [
+    "github下载",
+    "克隆仓库",
+    "下载github",
+    "github加速",
+    "git clone",
+    "github mirror"
+  ],
+  "mirrors": [
+    {
+      "name": "ghproxy",
+      "url": "https://ghproxy.com/",
+      "priority": 1
+    },
+    {
+      "name": "mirror.ghproxy",
+      "url": "https://mirror.ghproxy.com/",
+      "priority": 2
+    },
+    {
+      "name": "gh.api",
+      "url": "https://gh.api.99988866.xyz/",
+      "priority": 3
+    }
+  ]
+}
